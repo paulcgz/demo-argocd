@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/paulcgz/demo-cave.git
+    repoURL: https://github.com/paulcgz/demo-argocd.git
     targetRevision: HEAD
     path: dev
   destination: 
