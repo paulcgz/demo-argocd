@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo-app
+  name: demo-cave
 spec:
   selector:
     matchLabels:
-      app: demo-app
+      app: demo-cave
   replicas: 2
   template:
     metadata:
       labels:
-        app: demo-app
+        app: demo-cave
     spec:
       containers:
-      - name: demo-app
+      - name: demo-cave
         image: paulcgz/demo-cave:0.0.1-SNAPSHOT
         ports:
         - containerPort: 8080
