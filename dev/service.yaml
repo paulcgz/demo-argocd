@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: demo-cave-service
 spec:
+  type: NodePort
   selector:
     app: demo-cave
   ports:
