@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-cave
-        image: paulcgz/demo-cave:0.0.1
+        image: paulcgz/demo-cave:0.0.2
         ports:
         - containerPort: 8080
         resources:
